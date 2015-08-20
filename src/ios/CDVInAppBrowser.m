@@ -541,6 +541,7 @@
     self.toolbar.opaque = NO;
     self.toolbar.userInteractionEnabled = YES;
     self.toolbar.barTintColor = [UIColor colorWithRed:140/255.0 green:204/255.0 blue:63/255.0 alpha:1];
+    self.toolbar.tintColor = [UIColor whiteColor];
 
     CGFloat labelInset = 5.0;
     float locationBarY = toolbarIsAtBottom ? self.view.bounds.size.height - FOOTER_HEIGHT : self.view.bounds.size.height - LOCATIONBAR_HEIGHT;
